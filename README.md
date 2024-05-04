@@ -11,15 +11,21 @@ experience when customers access online services via electronic,different types 
 - we will be predicting the ad click-through rate using the machine learning approch
 
 <h2> > ✒ Probelm statement </h2>
-- Develop a machine learning algorithm that predict a particular user may click on an advertisment.
+- Develop a machine learning algorithm that predict a particular user will click on an advertisment.
 
 <h2> 📂 Dataset </h2>
 
 - Dataset consist 10 attributes
-- **'Daily Time Spend on Site','Age','Area Income','Daily internet usage','Ad topic line','City','Male','Country','Timestamp' and 'Clicked on Ad'**
+- **`Daily Time Spend on Site`,`Age`,`Area Income`,`Daily internet usage`,`Ad topic line`,`City`,`Gender`,`Country`,`Timestamp` and `Clicked on Ad`**
 - **`Clicked on Ad` is output attribute and rest 9 input attributes those are accuretly to predict user will click on ad or not**
 
-<h3>Meta information about Dataset attributes</h3>
+<h3> 🔍 Meta information about Dataset attributes</h3>
 
-
-
+- **`Daily Time Spend on Site`** user daily time spend on website
+- **`Age`** Its denotes which age group user come on website
+- **`Area Income`** user earn total money annual
+- **`Daily internet usage`** Its denote user how much internet use daily
+- **`Ad topic line`** The goal is to create a product to share information about a product, obtain customer information, and encourage customers to continue with the company beyond the content
+- **`Gender`** Its denote user come from which categories(Male or Femele)
+- **`Country`** User belong from which country
+- **`Clicked on Ad`** There assign (0 or 1) user click or not on advertisment
