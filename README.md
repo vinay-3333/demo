@@ -29,3 +29,43 @@ experience when customers access online services via electronic,different types 
 - **`Gender`** Its denote user come from which categories(Male or Femele)
 - **`Country`** User belong from which country
 - **`Clicked on Ad`** There assign (0 or 1) user click or not on advertisment
+
+
+<h3> Issues with Dataset and Solution </h3>
+
+1. Dirty Data
+- **`Daily Time Spent on Site->`** 
+    - Zero null value
+    - Convert datatype into float32
+    - Not Normal Distribution
+
+- **`Age`**
+    - Zero null value
+    - Convert datatype into int32
+    - Almost Normal Ditribution
+
+- **`Area Income`**
+    - Zero null value
+    - almost normal distribution
+
+- **`Daily Internet Usage`**
+    - Zero null value
+    - almost normal distribution
+    
+- **`Ad Topic Line`**
+    - Zero null value
+    - there is 50 sub categores more dominate to other sub categories `Imbalanced Ad topic line attribute`
+    
+- **`Gender`**
+    - zero null value
+    - `53.76%` Female and `46.24%` Male `Balanced gender Attribute`
+
+- **`Click on Ad`**
+    - Zero null value
+    - `50.83%` -> 0 and `49.17%` -> 1 `balanced click on ad attribute`
+
+
+2. Messay Data
+
+- **`Transformation and scaling`**
+    - **`Daily Time Spent on Site`,`Age`,`Area of Income`,`Daily Internet Usage`:-** we apply here Scaling or Transformatkion
