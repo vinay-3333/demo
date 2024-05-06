@@ -19,7 +19,7 @@ experience when customers access online services via electronic,different types 
 - **`Daily Time Spend on Site`,`Age`,`Area Income`,`Daily internet usage`,`Ad topic line`,`City`,`Gender`,`Country`,`Timestamp` and `Clicked on Ad`**
 - **`Clicked on Ad` is output attribute and rest 9 input attributes those are accuretly to predict user will click on ad or not**
 
-<h3> 🔍 Meta information about Dataset attributes</h3>
+<h2> 🔍 Meta information about Dataset attributes </h2>
 
 - **`Daily Time Spend on Site`** user daily time spend on website
 - **`Age`** Its denotes which age group user come on website
@@ -31,7 +31,7 @@ experience when customers access online services via electronic,different types 
 - **`Clicked on Ad`** There assign (0 or 1) user click or not on advertisment
 
 
-<h3> Issues with Dataset and Solution </h3>
+<h2> Issues with Dataset and Solution </h2>
 
 1. Dirty Data
 - **`Daily Time Spent on Site->`** 
