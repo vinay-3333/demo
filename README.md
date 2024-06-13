@@ -55,10 +55,12 @@ experience when customers access online services via electronic,different types 
 - **`Ad Topic Line`**
     - Zero null value
     - there is 50 sub categores more dominate to other sub categories `Imbalanced Ad topic line attribute`
+    - we will drop this atttribute bcz here 559 different vategories and it will not play a important role for prediction
     
 - **`Gender`**
     - zero null value
     - `53.76%` Female and `46.24%` Male `Balanced gender Attribute`
+    - onehotencoding apply convert into numerical
 
 - **`Click on Ad`**
     - Zero null value
@@ -67,5 +69,8 @@ experience when customers access online services via electronic,different types 
 
 2. Messay Data
 
+- **`Duplicate`** Drop duplicate values
 - **`Transformation and scaling`**
     - **`Daily Time Spent on Site`,`Age`,`Area of Income`,`Daily Internet Usage`:-** we apply here Scaling or Transformatkion
+- **`Timestamp`** Month extract from timestamp attribute and drop timestamp attribute
+- **`Gender` ,`Timestamp_month`** onehotencoding apply convert into numerical 
